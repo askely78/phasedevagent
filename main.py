@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 app = FastAPI()
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("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")
 
 @app.post("/webhook")
 async def whatsapp_webhook(request: Request):
