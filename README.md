@@ -1,7 +1,3 @@
-# Askley Manual Deploy
+# Agent Intelligent WhatsApp
 
-1. Ajoutez vos clés dans `.env`
-2. Installez les dépendances : `pip install -r requirements.txt`
-3. Lancez avec `bash start.sh`
-
-Déployable manuellement sur Render.com via GitHub ou ZIP.
+Ce projet est un agent intelligent capable de comparer des prix et réserver des hôtels et restaurants via WhatsApp.
